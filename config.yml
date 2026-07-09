@@ -1,5 +1,5 @@
-name: 'HD PowerView Shade'
-packageKey: 'HDPowerViewShade'
+name: 'PowerView Shade'
+packageKey: 'PowerViewShade'
 permissions:
   lan: {}
   discovery: {}
