@@ -1,0 +1,126 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "component": "main",
+                "capability": "windowShadeLevel",
+                "version": 1,
+                "idx": 0,
+                "group": "main",
+                "values": [],
+                "composite": false
+            }
+        ],
+        "actions": [
+            {
+                "component": "main",
+                "capability": "windowShade",
+                "version": 1,
+                "idx": 0,
+                "group": "main",
+                "inline": null
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "component": "main",
+            "capability": "windowShade",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "windowShadeLevel",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "winterplate04871.calibrate",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "winterplate04871.jog",
+            "version": 1,
+            "values": [],
+            "patch": []
+        },
+        {
+            "component": "main",
+            "capability": "partyvoice23922.createanother",
+            "version": 1,
+            "values": [],
+            "patch": []
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "component": "main",
+                "capability": "windowShade",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            },
+            {
+                "component": "main",
+                "capability": "windowShadeLevel",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            }
+        ],
+        "actions": [
+            {
+                "component": "main",
+                "capability": "windowShade",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            },
+            {
+                "component": "main",
+                "capability": "windowShadeLevel",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            },
+            {
+                "component": "main",
+                "capability": "clevercenter17261.calibrate",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            },
+            {
+                "component": "main",
+                "capability": "winterplate04871.jog",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            },
+            {
+                "component": "main",
+                "capability": "partyvoice23922.createanother",
+                "version": 1,
+                "values": [],
+                "patch": [],
+                "exclusion": []
+            }
+        ]
+    },
+    "type": "profile"
+}

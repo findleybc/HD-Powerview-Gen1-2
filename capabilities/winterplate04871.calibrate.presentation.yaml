@@ -3,7 +3,7 @@ dashboard:
   actions: []
   basicPlus: []
 detailView:
-  - label: "Calibrate2"
+  - label: "Calibrate"
     displayType: pushButton
     pushButton:
       command: push
@@ -11,5 +11,5 @@ detailView:
 automation:
   conditions: []
   actions: []
-id: clevercenter17261.calibrate
+id: winterplate04871.calibrate
 version: 1

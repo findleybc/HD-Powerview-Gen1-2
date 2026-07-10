@@ -10,7 +10,7 @@ components:
     version: 1
   - id: clevercenter17261.calibrate
     version: 1
-  - id: clevercenter17261.jog
+  - id: winterplate04871.jog
     version: 1
   - id: partyvoice23922.createanother
     version: 1
@@ -41,3 +41,6 @@ preferences:
   #   definition:
   #     stringType: text
   #     default: ""
+metadata:
+  vid: "38bef2ad-4408-361c-861e-6187592b0c10"
+  mnmn: "SmartThingsCommunity"

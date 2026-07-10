@@ -176,7 +176,23 @@ end
 local function device_init(driver, device)
   
     log.debug(device.id .. ": " .. device.device_network_id .. "> INITIALIZING")
-  
+  -- Define the polling interval in seconds (e.g., 300 seconds = 5 minutes)
+    local POLLING_INTERVAL = 60
+
+    -- Start a scheduled timer on the device's thread
+    device.thread:call_on_schedule(
+        POLLING_INTERVAL,
+        function ()
+            -- Ensure preferences are set before attempting an HTTP request
+            if device.preferences and device.preferences.hubIP and device.preferences.shadeID then
+                log.debug("Timer executing: Polling shade position for " .. device.device_network_id)
+                updatePosition(device)
+            else
+                log.warn("Timer skipped: hubIP or shadeID not yet configured in device preferences.")
+            end
+        end, 
+        "shade_polling_timer"
+    )
     log.debug('Exiting device initialization')
 end
 
