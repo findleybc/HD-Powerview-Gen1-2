@@ -1,0 +1,52 @@
+{
+    "id": "winterplate04871.customWindowShade",
+    "version": 1,
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{windowShadeLevel.value}}"
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "Window Shade Level",
+            "displayType": "slider",
+            "slider": {
+                "range": [ 0, 100 ],
+                "step": 1,
+                "command": "setShadeLevel",
+                "value": "windowShadeLevel.value",
+                "valueType": "integer",
+                "unit": "windowShadeLevel.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Shade Level",
+                "displayType": "slider",
+                "slider": {
+                    "range": [ 0, 100 ],
+                    "step": 1,
+                    "value": "windowShadeLevel.value",
+                    "valueType": "integer",
+                    "unit": "windowShadeLevel.unit"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Set Shade Level",
+                "displayType": "slider",
+                "slider": {
+                    "range": [ 0, 100 ],
+                    "step": 1,
+                    "command": "setShadeLevel"
+                }
+            }
+        ]
+    }
+}

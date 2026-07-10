@@ -2,6 +2,8 @@ name: powerViewShade.v1
 components:
 - id: main
   capabilities:
+  # - id: winterplate04871.customWindowShade
+  #   version: 1 
   - id: windowShade
     version: 1
   - id: windowShadeLevel
@@ -31,3 +33,11 @@ preferences:
     definition:
       stringType: text
       default: ""
+  # - title: "Shade ID2"
+  #   name: shadeID2
+  #   description: "ID number of the second shade."
+  #   required: true
+  #   preferenceType: string
+  #   definition:
+  #     stringType: text
+  #     default: ""

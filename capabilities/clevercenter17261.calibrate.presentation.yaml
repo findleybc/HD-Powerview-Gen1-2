@@ -3,7 +3,7 @@ dashboard:
   actions: []
   basicPlus: []
 detailView:
-  - label: "Calibrate"
+  - label: "Calibrate2"
     displayType: pushButton
     pushButton:
       command: push
