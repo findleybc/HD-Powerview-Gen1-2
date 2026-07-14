@@ -1,9 +1,9 @@
 {
     "dashboard": {
         "states": [
-             {
+            {
                 "component": "main",
-                "capability": "windowShadeLevel",
+                "capability": "windowShade",
                 "version": 1,
                 "idx": 0,
                 "group": "main",
@@ -31,13 +31,6 @@
             "values": [],
             "patch": []
         },
-       {
-            "component": "main",
-            "capability": "battery",
-            "version": 1,
-            "values": [],
-            "patch": []
-        },
         {
             "component": "main",
             "capability": "windowShadeLevel",
@@ -47,14 +40,14 @@
         },
         {
             "component": "main",
-            "capability": "winterplate04871.calibrate",
+            "capability": "clevercenter17261.calibrate",
             "version": 1,
             "values": [],
             "patch": []
         },
         {
             "component": "main",
-            "capability": "winterplate04871.jog",
+            "capability": "clevercenter17261.jog",
             "version": 1,
             "values": [],
             "patch": []
@@ -105,7 +98,7 @@
             },
             {
                 "component": "main",
-                "capability": "winterplate04871.calibrate",
+                "capability": "clevercenter17261.calibrate",
                 "version": 1,
                 "values": [],
                 "patch": [],
@@ -113,7 +106,7 @@
             },
             {
                 "component": "main",
-                "capability": "winterplate04871.jog",
+                "capability": "clevercenter17261.jog",
                 "version": 1,
                 "values": [],
                 "patch": [],

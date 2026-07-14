@@ -8,31 +8,33 @@ components:
     version: 1
   - id: windowShadeLevel
     version: 1
-  - id: clevercenter17261.calibrate
+  - id: battery # Add this line
+    version: 1
+  - id: winterplate04871.calibrate
     version: 1
   - id: winterplate04871.jog
     version: 1
-  - id: partyvoice23922.createanother
-    version: 1
-    categories:
-      - name: Others
+  # - id: partyvoice23922.createanother
+  #   version: 1
+  #   categories:
+  #     - name: Others
 preferences:
-  - title: "PowerView Hub IP Address"
-    name: hubIP
-    description: "IP address of HD PowerView Hub (gen 1 or 2) on your network."
-    required: true
-    preferenceType: string
-    definition:
-      stringType: text
-      default: ""
-  - title: "Shade ID"
-    name: shadeID
-    description: "ID number of the shade."
-    required: true
-    preferenceType: string
-    definition:
-      stringType: text
-      default: ""
+  # - title: "PowerView Hub IP Address"
+  #   name: hubIP
+  #   description: "IP address of HD PowerView Hub (gen 1 or 2) on your network."
+  #   required: true
+  #   preferenceType: string
+  #   definition:
+  #     stringType: text
+  #     default: ""
+  # - title: "Shade ID"
+  #   name: shadeID
+  #   description: "ID number of the shade."
+  #   required: true
+  #   preferenceType: string
+  #   definition:
+  #     stringType: text
+  #     default: ""
   # - title: "Shade ID2"
   #   name: shadeID2
   #   description: "ID number of the second shade."
@@ -42,5 +44,5 @@ preferences:
   #     stringType: text
   #     default: ""
 metadata:
-  vid: "38bef2ad-4408-361c-861e-6187592b0c10"
+  vid: "a44651f5-2948-3a31-bed7-6d01666397cf"
   mnmn: "SmartThingsCommunity"
